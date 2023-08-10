@@ -140,6 +140,7 @@ header{
   margin:7px;
   font-size:14px;
 }
+.util_menu a:hover{color:#F9F871;}
 
 /* gnb */
 nav{
