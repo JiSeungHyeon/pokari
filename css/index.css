@@ -21,6 +21,7 @@ body{
   font-weight:normal;
   letter-spacing:0.6px;
 }
+
 /* click________________________ */
 #wrap{
   opacity:0;
@@ -43,6 +44,7 @@ input[id="click"]{display:none;}
   z-index:1000;
 }
 .click_me img{cursor:pointer;}
+
 /* top button_________________ */
 .top{
   position:fixed;
@@ -61,6 +63,7 @@ input[id="click"]{display:none;}
   right:57%;
   transform:translateX(-50%);
 }
+
 /* header & visual________________ */
 header{
   width:100vw;
@@ -303,6 +306,7 @@ video{
   right:10%;
   transform:translateY(-50%);
 }
+
 /* product */
 @keyframes wave{
   0%{background-position:0 bottom;}
@@ -324,6 +328,7 @@ video{
   align-items:center;
 }
 input[type=radio]{display:none;}
+
 /* can */
 .pd_can{
   width:250px;
@@ -473,6 +478,7 @@ input[id=pet4]:checked~.pet_heading .text4{
   left:50%;
   transform:translateX(-50%);
 }
+
 /* powder */
 .pd_pow{
   width:250px;
@@ -538,6 +544,7 @@ input[id=pow1]:checked~.pow_heading .text1{
   left:50%;
   transform:translateX(-50%);
 }
+
 /* sweatmarket */
 #sm{
   width:100vw;
@@ -713,7 +720,6 @@ footer{
   flex-direction:column;
   align-items:center;
 }
-
 address{
   font-style:normal;
   margin-top:50px;
